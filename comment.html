@@ -14,8 +14,12 @@
     </script>
    </head>
    <style>
+   body {
+    margin:0;
+   }
     a {
-      color:black;
+      color:darkgreen;
+      font-family:sans-serif;
       text-decoration: none;
     }
     #active {
@@ -25,24 +29,29 @@
       color:grey;
     }
     ol {
-      display: table;
-      margin: 0 auto;
+      border-right:2px solid gray;
+      width:87px;
+      margin:0;
+      padding:45px;
     }
     h1 {
       font-size: 50px;
       text-align: center;
+      border-bottom: 2px solid gray;
+      margin: 0;
+      padding: 15px;
     }
    </style>
   </head>
   <body>
     <h1><a href="index.html">내 고양이 최보리</a></h1>
-    <ol>
-     <li><a href="1.html" class="saw">최보리 입양</a></li>
-     <li><a href="2.html" class="saw">최보리 나이</a></li>
-     <li><a href="3.html" class="saw">최보리 성별</a></li>
-     <li><a href="4.html" class="saw">최보리 성격</a></li>
-     <li><a href="comment.html" class="saw" id="active">댓글</a></li>
-   </ol>
+      <ol>
+       <li><a href="1.html" class="saw">최보리 입양</a></li>
+       <li><a href="2.html" class="saw">최보리 나이</a></li>
+       <li><a href="3.html" class="saw">최보리 성별</a></li>
+       <li><a href="4.html" class="saw">최보리 성격</a></li>
+       <li><a href="comment.html" class="saw" id="active">댓글</a></li>
+     </ol>
        <div id="disqus_thread"></div>
        <script>
            /**
